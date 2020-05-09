@@ -30,7 +30,6 @@ def approximate_size(size, a_kilobyte_is_1024_bytes=True):
 
 
 if __name__ == '__main__':
-    print('main')
     number = 1_000_000_000_000
     print(approximate_size(number, False))
     print(approximate_size(number))
